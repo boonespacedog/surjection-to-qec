@@ -1,0 +1,40 @@
+{
+  "experiment": "E50_functorial_code_morphisms",
+  "timestamp": "2025-11-12T05:05:18.810826",
+  "configuration": {
+    "n": 8,
+    "k_initial": 2,
+    "k_final": 4,
+    "n_points": 100,
+    "physical_dim": 256
+  },
+  "results": {
+    "kernel_dim_range": [
+      252,
+      254
+    ],
+    "logical_dim_range": [
+      2,
+      4
+    ],
+    "n_critical_points": 1,
+    "max_derivative": 197.99999999999997,
+    "is_smooth": false,
+    "validation_passed": 4,
+    "validation_total": 5
+  },
+  "discoveries": [
+    "Kernel dimension evolves from 254 to 252, monotonically",
+    "Endpoints: rank 2\u21924, kernel dim 254\u2192252",
+    "Ranks: 2\u21924\u21924, monotonic",
+    "All interpolated codes within bounds",
+    "Spectral gap std: 0.2923"
+  ],
+  "output_files": [
+    "kernel_evolution.csv",
+    "singular_values.npy",
+    "code_parameters.csv",
+    "smoothness_analysis.json",
+    "validation_report.json"
+  ]
+}

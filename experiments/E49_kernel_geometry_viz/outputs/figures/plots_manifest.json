@@ -1,0 +1,41 @@
+{
+  "generated": "2025-11-12T05:04:33.184563",
+  "figures": {
+    "/Users/mac/Desktop/egg-paper/surjection-to-qec/experiments/E49_kernel_geometry_viz/outputs/figures/figure_1_kernel_3d.png": {
+      "description": "Kernel 3D Projection",
+      "type": "3d_projection",
+      "dpi": 300,
+      "size": [
+        1000,
+        800
+      ]
+    },
+    "/Users/mac/Desktop/egg-paper/surjection-to-qec/experiments/E49_kernel_geometry_viz/outputs/figures/figure_2_singular_values.png": {
+      "description": "Singular Value Spectrum",
+      "type": "bar_plot",
+      "dpi": 300,
+      "size": [
+        800,
+        600
+      ]
+    },
+    "/Users/mac/Desktop/egg-paper/surjection-to-qec/experiments/E49_kernel_geometry_viz/outputs/figures/figure_3_quotient_heatmap.png": {
+      "description": "Quotient Metric Heatmap",
+      "type": "heatmap",
+      "dpi": 300,
+      "size": [
+        1200,
+        500
+      ]
+    },
+    "/Users/mac/Desktop/egg-paper/surjection-to-qec/experiments/E49_kernel_geometry_viz/outputs/figures/figure_4_kernel_angles.png": {
+      "description": "Kernel Inner Products",
+      "type": "heatmap",
+      "dpi": 300,
+      "size": [
+        600,
+        600
+      ]
+    }
+  }
+}

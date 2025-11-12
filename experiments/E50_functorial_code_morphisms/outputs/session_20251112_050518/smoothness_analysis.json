@@ -1,0 +1,10 @@
+{
+  "max_derivative": 197.99999999999997,
+  "is_smooth": false,
+  "threshold": 1.0,
+  "n_critical_points": 1,
+  "critical_points": [
+    0.010101010101010102
+  ],
+  "discovery": "Max |\u0394dim/\u0394t| = 198.0000"
+}

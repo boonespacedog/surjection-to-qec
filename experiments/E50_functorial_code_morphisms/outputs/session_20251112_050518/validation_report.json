@@ -1,0 +1,125 @@
+{
+  "n_tests": 5,
+  "n_passed": 4,
+  "n_failed": 1,
+  "all_validated": false,
+  "validation_rate": 0.8,
+  "discoveries": [
+    "Kernel dimension evolves from 254 to 252, monotonically",
+    "Endpoints: rank 2\u21924, kernel dim 254\u2192252",
+    "Ranks: 2\u21924\u21924, monotonic",
+    "All interpolated codes within bounds",
+    "Spectral gap std: 0.2923"
+  ],
+  "overall_status": "FAILED",
+  "individual_results": [
+    {
+      "smoothness": {
+        "max_derivative": 197.99999999999997,
+        "threshold": 1.0,
+        "validated": "False",
+        "n_violations": 1,
+        "violation_points": [
+          {
+            "t": 0.0,
+            "derivative": -197.99999999999997,
+            "dim_before": 254,
+            "dim_after": 252
+          }
+        ],
+        "discovery": "Max |\u0394dim/\u0394t| = 198.0000",
+        "interpretation": "Non-smooth: 1 jumps detected"
+      },
+      "initial_kernel_dim": 254,
+      "final_kernel_dim": 252,
+      "kernel_dim_range": [
+        252,
+        254
+      ],
+      "n_rank_jumps": 1,
+      "rank_jumps": [
+        [
+          0.010101010101010102,
+          2,
+          4
+        ]
+      ],
+      "is_monotonic": "True",
+      "monotonic_type": "decreasing",
+      "discovery": "Kernel dimension evolves from 254 to 252, monotonically",
+      "validated": "False"
+    },
+    {
+      "t=0": {
+        "rank": 2,
+        "expected_rank": 2,
+        "kernel_dim": 254,
+        "validated": "True",
+        "shape": [
+          4,
+          256
+        ]
+      },
+      "t=1": {
+        "rank": 4,
+        "expected_rank": 4,
+        "kernel_dim": 252,
+        "validated": "True",
+        "shape": [
+          4,
+          256
+        ]
+      },
+      "validated": "True",
+      "discovery": "Endpoints: rank 2\u21924, kernel dim 254\u2192252"
+    },
+    {
+      "ranks": [
+        "2",
+        "4",
+        "4"
+      ],
+      "kernel_dims": [
+        "254",
+        "252",
+        "252"
+      ],
+      "kernel_monotonic": "True",
+      "rank_monotonic": "True",
+      "composition_error": 0.0,
+      "composition_consistent": "True",
+      "validated": "True",
+      "discovery": "Ranks: 2\u21924\u21924, monotonic"
+    },
+    {
+      "n_samples_tested": 20,
+      "n_violations": 0,
+      "violations": [],
+      "validated": true,
+      "discovery": "All interpolated codes within bounds"
+    },
+    {
+      "n_samples": 10,
+      "condition_number_range": [
+        1.1817552871300987,
+        8.46060633587952
+      ],
+      "max_condition_jump": 4.6063557557120935,
+      "spectral_gaps": [
+        0.9744807213516615,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap_evolution_smooth": "True",
+      "validated": "True",
+      "discovery": "Spectral gap std: 0.2923"
+    }
+  ]
+}

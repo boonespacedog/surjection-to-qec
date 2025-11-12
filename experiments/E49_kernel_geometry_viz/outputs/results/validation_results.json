@@ -1,0 +1,78 @@
+{
+  "experiment_id": "E49",
+  "timestamp": "2025-11-12T05:04:32.070300",
+  "predictions": [
+    {
+      "test": "kernel_dimension",
+      "theory_predicts": 2,
+      "discovered": 2,
+      "computed_from_rank": 2,
+      "passed": true,
+      "error": 0,
+      "tolerance": 0
+    },
+    {
+      "test": "kernel_orthogonality",
+      "theory_predicts": 0.0,
+      "discovered": 0.0,
+      "passed": true,
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "diagonal_error": 0.0,
+      "off_diagonal_error": 0.0,
+      "gram_matrix": [
+        [
+          {
+            "real": 1.0,
+            "imag": 0.0
+          },
+          {
+            "real": 0.0,
+            "imag": 0.0
+          }
+        ],
+        [
+          {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          {
+            "real": 1.0,
+            "imag": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "test": "quotient_isometry",
+      "theory_predicts": "identity",
+      "discovered": "frobenius_error=1.41e+00",
+      "passed": false,
+      "error": 1.4142135623730951,
+      "tolerance": 1e-10,
+      "is_hermitian": true,
+      "eigenvalues": [
+        2.0,
+        2.0
+      ],
+      "condition_number": 1.0
+    },
+    {
+      "test": "null_space_property",
+      "theory_predicts": 0.0,
+      "discovered": 1.1102230246251565e-16,
+      "passed": true,
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-13,
+      "max_projection_location": [
+        0,
+        0
+      ]
+    }
+  ],
+  "overall_pass": false,
+  "falsification_result": "FAIL",
+  "n_tests": 4,
+  "n_passed": 3,
+  "n_failed": 1
+}

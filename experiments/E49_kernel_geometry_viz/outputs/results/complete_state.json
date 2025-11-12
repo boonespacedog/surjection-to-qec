@@ -1,0 +1,116 @@
+{
+  "surjection_matrix": [
+    [
+      {
+        "real": 1.0,
+        "imag": 0.0
+      },
+      {
+        "real": 0.0,
+        "imag": 0.0
+      },
+      {
+        "real": 1.0,
+        "imag": 0.0
+      },
+      {
+        "real": 0.0,
+        "imag": 0.0
+      }
+    ],
+    [
+      {
+        "real": 0.0,
+        "imag": 0.0
+      },
+      {
+        "real": 1.0,
+        "imag": 0.0
+      },
+      {
+        "real": 0.0,
+        "imag": 0.0
+      },
+      {
+        "real": 1.0,
+        "imag": 0.0
+      }
+    ]
+  ],
+  "physical_dim": 4,
+  "logical_dim": 2,
+  "kernel_dim": 2,
+  "kernel_basis": [
+    [
+      {
+        "real": -0.7071067811865475,
+        "imag": -0.0
+      },
+      {
+        "real": 0.0,
+        "imag": -0.0
+      }
+    ],
+    [
+      {
+        "real": 0.0,
+        "imag": -0.0
+      },
+      {
+        "real": -0.7071067811865475,
+        "imag": -0.0
+      }
+    ],
+    [
+      {
+        "real": 0.7071067811865476,
+        "imag": -0.0
+      },
+      {
+        "real": 0.0,
+        "imag": -0.0
+      }
+    ],
+    [
+      {
+        "real": 0.0,
+        "imag": -0.0
+      },
+      {
+        "real": 0.7071067811865476,
+        "imag": -0.0
+      }
+    ]
+  ],
+  "singular_values": [
+    1.4142135623730951,
+    1.4142135623730951,
+    0.0,
+    0.0
+  ],
+  "quotient_metric": [
+    [
+      {
+        "real": 2.0,
+        "imag": 0.0
+      },
+      {
+        "real": 0.0,
+        "imag": 0.0
+      }
+    ],
+    [
+      {
+        "real": 0.0,
+        "imag": 0.0
+      },
+      {
+        "real": 2.0,
+        "imag": 0.0
+      }
+    ]
+  ],
+  "code_distance": 2,
+  "orthogonality_error": 0.0,
+  "tolerance": 1e-14
+}
