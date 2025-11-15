@@ -69,19 +69,29 @@ python3 main.py
 ```
 surjection-to-qec/
 ├── experiments/
-│   ├── E49_kernel_geometry_viz/
-│   │   ├── src/                 # Core implementation
-│   │   ├── tests/               # Unit tests
-│   │   ├── outputs/             # Results (main session)
-│   │   ├── main.py              # Entry point
+│   ├── E49_kernel_geometry_viz/           # [[4,2,2]] code validation
+│   │   ├── src/                           # Core implementation
+│   │   ├── tests/                         # Unit tests
+│   │   ├── outputs/
+│   │   │   ├── EXPERIMENTAL_REPORT_E49.md # Execution results
+│   │   │   ├── ANALYTICAL_REPORT_E49.md   # Analysis and interpretation
+│   │   │   └── figures/                   # Visualizations
+│   │   ├── README.md                      # Experiment pre-registration
+│   │   ├── main.py                        # Entry point
 │   │   └── requirements.txt
-│   └── E50_functorial_code_morphisms/
-│       ├── src/                 # Core implementation
-│       ├── tests/               # Unit tests
+│   └── E50_functorial_code_morphisms/     # Code family evolution
+│       ├── src/                           # Core implementation
+│       ├── tests/                         # Unit tests
+│       ├── outputs/
+│       │   ├── EXPERIMENTAL_REPORT_E50.md # Execution results
+│       │   ├── ANALYTICAL_REPORT_E50.md   # Analysis and interpretation
+│       │   └── session_*/                 # Validated numerical data
 │       ├── outputs/             # Results (main session)
 │       ├── main.py              # Entry point
 │       └── requirements.txt
 ├── paper/
+│   ├── surjection_to_qec_v7.tex
+│   ├── surjection_to_qec_v7.pdf
 │   ├── surjection_to_qec_v6.tex
 │   └── surjection_to_qec_v6.pdf
 ├── LICENSE
@@ -152,4 +162,4 @@ Computational validation and mathematical formalism assisted by Claude (Anthropi
 
 - **Repository**: https://github.com/boonespacedog/surjection-to-qec
 - **Zenodo Archive**: https://doi.org/10.5281/zenodo.17585624
-- **Paper**: See `paper/` directory for latest version (v6)
+- **Paper**: See `paper/` directory for latest version (v7)
