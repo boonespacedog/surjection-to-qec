@@ -72,30 +72,34 @@ python3 main.py
 ```
 surjection-to-qec/
 ├── experiments/
-│   ├── E49_kernel_geometry_viz/           # [[4,2,2]] code validation
-│   │   ├── src/                           # Core implementation
-│   │   ├── tests/                         # Unit tests
+│   ├── E49_kernel_geometry_viz/            # [[4,2,2]] code validation
+│   │   ├── src/                            # Core implementation
+│   │   ├── tests/                          # Unit tests
 │   │   ├── outputs/
-│   │   │   ├── EXPERIMENTAL_REPORT_E49.md # Execution results
-│   │   │   ├── ANALYTICAL_REPORT_E49.md   # Analysis and interpretation
-│   │   │   └── figures/                   # Visualizations
-│   │   ├── README.md                      # Experiment pre-registration
-│   │   ├── main.py                        # Entry point
+│   │   │   ├── EXPERIMENTAL_REPORT_E49.md  # Execution results
+│   │   │   ├── ANALYTICAL_REPORT_E49.md    # Analysis and interpretation
+│   │   │   ├── results/                    # Validated numerical data
+│   │   │   └── figures/                    # Visualizations
+│   │   ├── ABOUT_THIS_EXPERIMENT.md        # Research narrative
+│   │   ├── README.md                       # Experiment pre-registration
+│   │   ├── main.py                         # Entry point
 │   │   └── requirements.txt
-│   └── E50_functorial_code_morphisms/     # Code family evolution
-│       ├── src/                           # Core implementation
-│       ├── tests/                         # Unit tests
+│   └── E50_functorial_code_morphisms/      # Code family evolution
+│       ├── src/                            # Core implementation
+│       ├── tests/                          # Unit tests
 │       ├── outputs/
-│       │   ├── EXPERIMENTAL_REPORT_E50.md # Execution results
-│       │   ├── ANALYTICAL_REPORT_E50.md   # Analysis and interpretation
-│       │   └── session_*/                 # Validated numerical data
-│       ├── outputs/             # Results (main session)
-│       ├── main.py              # Entry point
+│       │   ├── ANALYTICAL_REPORT_E50.md    # Results and analysis
+│       │   └── session_*/                  # Numerical data and figures
+│       ├── ABOUT_THIS_EXPERIMENT.md        # Research narrative
+│       ├── PHASE_TRANSITION_INTERPRETATIONS.md  # Theoretical implications
+│       ├── README.md                       # Experiment pre-registration
+│       ├── main.py                         # Entry point
 │       └── requirements.txt
 ├── paper/
-│   ├── surjection_to_qec_v7.pdf
+│   ├── Sudoma_O_Nov2025_surjection_to_qec.pdf  # Latest version (v7)
+│   └── surjection_to_qec_v7.tex
 ├── LICENSE
-├── README.md
+├── README.md                               # This file
 └── .gitignore
 ```
 
