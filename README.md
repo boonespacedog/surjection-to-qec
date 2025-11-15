@@ -1,4 +1,4 @@
-# Bounded Surjections to Quantum Error-Correcting Codes
+# Bounded Surjections to Quantum Error-Correcting Codes: An Operator-Algebraic Construction
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17585624-blue.svg)](https://doi.org/10.5281/zenodo.17585624)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
