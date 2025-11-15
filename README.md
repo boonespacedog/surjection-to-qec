@@ -6,7 +6,6 @@
 **Computational verification code for**: "From Bounded Surjections to Quantum Error-Correcting Codes"
 
 **Author**: Oksana Sudoma
-**Status**: Publication-ready
 
 ---
 
@@ -94,10 +93,7 @@ surjection-to-qec/
 │       ├── main.py              # Entry point
 │       └── requirements.txt
 ├── paper/
-│   ├── surjection_to_qec_v7.tex
 │   ├── surjection_to_qec_v7.pdf
-│   ├── surjection_to_qec_v6.tex
-│   └── surjection_to_qec_v6.pdf
 ├── LICENSE
 ├── README.md
 └── .gitignore
