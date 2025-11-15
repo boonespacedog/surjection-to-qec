@@ -34,6 +34,8 @@ Validates [[4,2,2]] quantum code construction from bounded surjections.
 - Logical operators detected
 - Runtime: < 1 second
 
+**Documentation**: See `experiments/E49_kernel_geometry_viz/ABOUT_THIS_EXPERIMENT.md` for complete research narrative (hypothesis → results → interpretation).
+
 **Quick start**:
 ```bash
 cd experiments/E49_kernel_geometry_viz
@@ -48,10 +50,12 @@ python3 main.py
 Continuous code family evolution with rank transition detection.
 
 **Key results**:
-- Rank transitions detected in continuous families
-- Morphism preservation verified
-- Continuous parameter evolution tracked
+- Rank transitions detected at t = 2^n - 1 (discrete phase transitions!)
+- Dimension jumps: |Δdim/Δt| = 198 at critical points
+- Topological protection discovered (codes resist smooth deformation)
 - Runtime: ~1.5 seconds
+
+**Documentation**: See `experiments/E50_functorial_code_morphisms/ABOUT_THIS_EXPERIMENT.md` for complete research narrative and link to topological interpretations.
 
 **Quick start**:
 ```bash
