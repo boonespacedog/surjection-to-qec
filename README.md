@@ -139,7 +139,7 @@ All numerical results match paper claims to stated precision.
 ```bibtex
 @misc{sudoma2025surjection,
   author = {Sudoma, Oksana},
-  title = {From Bounded Surjections to Quantum Error-Correcting Codes},
+  title = {From Bounded Surjections to Quantum Error-Correcting Codes: An Operator-Algebraic Construction},
   year = {2025},
   doi = {10.5281/zenodo.17585624},
   url = {https://github.com/boonespacedog/surjection-to-qec}
